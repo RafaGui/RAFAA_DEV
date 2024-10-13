@@ -1,0 +1,57 @@
+.acessoPlan{
+    width: 100%;
+    padding: 3rem 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.acessoPlanContet{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+
+
+    background-color: #1e1e1e33;
+    border-radius: 1rem;
+    position: relative;
+    padding: 2rem 3rem;
+}
+.acessoPlanText{
+    max-width: 500px;
+}
+.acessoPlanContet .caseBtn{
+    margin-top: 1rem;
+}
+.acessoPlanContet .btn{
+    background-color: var(--color-primary);
+}
+.acessoPlanImg{
+    width: 500px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.acessoPlanImg img{
+    width: 100%;
+    max-width: 400px;
+    object-fit: cover;
+}
+@media screen and (max-width:825px) {
+    .acessoPlanImg{
+        position: relative;
+        width: 100%;
+        margin-bottom: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+    .acessoPlanContet{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 2rem 1rem;
+
+    }
+}

@@ -1,0 +1,46 @@
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    padding: 1rem;
+}
+.heroContent{
+    text-align: center;
+    color: #fff;
+}
+.heroContent h1{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: -1rem;
+}
+.textColorEffect{
+    color: var(--color-primary);
+}
+.heroContent p{
+    margin: 1.3rem 0;
+    color: #ffffff8f;
+}
+.hero .caseBtn{
+    justify-content: center;
+}
+.heroBtn{
+    background-color: var(--color-primary);
+}
+@media screen and (max-width:650px) {
+    .hero{
+        height: 70vh;
+    }
+    .heroContent{
+        text-align: left;
+    }
+    .hero .caseBtn{
+        justify-content: start;
+    }
+    .heroContent h1{
+        font-size: 1.8rem;
+    }
+    .heroContent p{
+        font-size: .9rem;
+    }
+}

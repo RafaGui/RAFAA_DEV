@@ -1,0 +1,43 @@
+.projects{
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.projects h3{
+    margin-bottom: 2rem;
+}
+.projectsContent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    max-width: 1000px;
+    /* background-color: red; */
+    gap: 1rem;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.blocoProject{
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    border-radius: 1rem;
+    border: 1px solid #ffffff17;
+    box-shadow: 0px 0px 10px #ffffff0c;
+}
+.blocoProject img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+@media screen and (max-width:650px) {
+    .projectsContent{
+        grid-template-columns: 1fr;
+    }
+}
