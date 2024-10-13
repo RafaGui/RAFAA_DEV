@@ -9,10 +9,14 @@
 }
 .destaqueSite h3{
     font-weight: 500;
+    text-align: center;
 }
 .destaqueSite p{
     margin-bottom: 2%;
+    text-align: center;
     font-size: .8rem;
+    color: #ffffff65;
+
 }
 .destaqueSiteContent{
     width: 100%;
@@ -43,17 +47,25 @@
 .iconFlatBox{
     margin-bottom: 1rem;
 }
-.flatBox i{
-    font-size: 60px;
-    /* margin-bottom: 50px; */
-    margin: 0 auto;
+.imageFlatBox{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+.imageFlatBox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: .2rem;
 }
 .flatBox h4{
     margin-bottom: 1rem;
     font-size: 1.3rem;
+    font-weight: 300;
 }
 .flatBox p{
     color: #ffffff65;
+    text-align: left;
 }
 @media screen and (max-width:1000px) {
     .destaqueSite p{

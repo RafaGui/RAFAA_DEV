@@ -13,6 +13,8 @@
 
     --default-font:"Poppins", serif;
     --default-padding-block-element:1rem 2rem;
+
+    --subtitle-size:1.2rem;
 }
 body{
     position: relative;

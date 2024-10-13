@@ -8,6 +8,8 @@
 }
 .projects h3{
     margin-bottom: 2rem;
+    font-weight: 500;
+    font-size: var(--subtitle-size);
 }
 .projectsContent{
     display: grid;
