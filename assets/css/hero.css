@@ -13,7 +13,26 @@
     position: absolute;
     left: 0;
     top: 0;
+    /* background-attachment: fixed; */
     z-index: -1;
+}
+@media screen and (min-width:651px) {
+    .imageHeroBackgorund{
+        background: url(/assets/img/bannerHero.png);
+        background-size: cover;
+        background-position: center;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    }
+}
+@media screen and (max-width:650px) {
+    .imageHeroBackgorund{
+        background: url(/assets/img/bannerHeroMb.png);
+        background-size: cover;
+        background-position: center;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    }
 }
 .imageHeroBackgorund img{
     width: 100%;
