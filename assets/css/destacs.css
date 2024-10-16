@@ -49,13 +49,15 @@
     max-width: 250px;
     /* height: 320px; */
     /* background-color: #1e1e1e33; */
-    border: 1px solid #ffffff17;
-    box-shadow: 0px 0px 10px #ffffff0c;
+    /* border: 1px solid #ffffff17;
+    box-shadow: 0px 0px 10px #ffffff0c; */
+    border: 1px solid #056cf225;
+    box-shadow: 0px 0px 10px #056cf231;
     border-radius: 1rem;
 
     display: flex;
     align-items: start;
-    justify-content: center;
+    justify-content: start;
     flex-direction: column;
 
     text-align: left;
@@ -82,7 +84,7 @@
     font-weight: 300;
 }
 .flatBox p{
-    color: #ffffff65;
+    color: #276ef18c;
     text-align: left;
 }
 @media screen and (max-width:1000px) {

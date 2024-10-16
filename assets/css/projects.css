@@ -29,8 +29,10 @@
     max-width: 500px;
     height: 300px;
     border-radius: 1rem;
-    border: 1px solid #ffffff17;
-    box-shadow: 0px 0px 10px #ffffff0c;
+    /* border: 1px solid #ffffff17;
+    box-shadow: 0px 0px 10px #ffffff0c; */
+    border: 1px solid #056cf225;
+    box-shadow: 0px 0px 10px #056cf231;
 }
 .blocoProject img{
     width: 100%;
