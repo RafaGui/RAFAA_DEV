@@ -18,7 +18,7 @@
 }
 @media screen and (min-width:651px) {
     .imageHeroBackgorund{
-        background: url(/assets/img/bannerHero.png);
+        background: url(/bannerHero.png);
         background-size: cover;
         background-position: center;
     /* background-attachment: fixed; */
@@ -27,7 +27,7 @@
 }
 @media screen and (max-width:650px) {
     .imageHeroBackgorund{
-        background: url(/assets/img/bannerHeroMb.png);
+        background: url(/bannerHeroMb.png);
         background-size: cover;
         background-position: center;
     /* background-attachment: fixed; */
