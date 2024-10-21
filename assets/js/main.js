@@ -4,10 +4,10 @@ const closeMenu = document.querySelector('.closeBtn');
 const modalMenu = document.querySelector('.linksNavigator');
 
 function openMenuFunction() {
-    modalMenu.style.left = "0";
+    modalMenu.style.top = "0";
 }
 function closeMenuFunction() {
-    modalMenu.style.left = "-180%";
+    modalMenu.style.top = "-290%";
 }
 
 // ADICIONAR OPEN E CLOSE FUNCTIONS

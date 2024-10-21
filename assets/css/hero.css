@@ -6,6 +6,8 @@
     padding: 1rem;
     background-color: #1818188f;
     position: relative;
+    overflow: hidden;
+
 }
 .imageHeroBackgorund{
     width: 100%;
@@ -13,21 +15,31 @@
     position: absolute;
     left: 0;
     top: 0;
-    /* background-attachment: fixed; */
     z-index: -1;
+    opacity: .3;
+    animation: round 20s linear;
+}
+@keyframes round {
+    0%{
+        scale: 1.2;
+    }
+    100%{
+        scale: 1;
+    }
 }
 @media screen and (min-width:651px) {
     .imageHeroBackgorund{
-        background: url(/bannerHero.png);
+        background: url(/assets/img/hero.jpg);
         background-size: cover;
         background-position: center;
     /* background-attachment: fixed; */
     background-repeat: no-repeat;
+    
     }
 }
 @media screen and (max-width:650px) {
     .imageHeroBackgorund{
-        background: url(/bannerHeroMb.png);
+        background: url(/assets/img/hero.jpg);
         background-size: cover;
         background-position: center;
     /* background-attachment: fixed; */

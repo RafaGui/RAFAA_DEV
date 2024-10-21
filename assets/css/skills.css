@@ -1,0 +1,41 @@
+.skills{
+    width: 100%;
+    background-color: #ffffff05;
+    padding: 4rem 1rem;
+}
+.skillsContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #fff;
+}
+.skillsContent h2{
+    font-weight: 500;
+    margin-bottom: 1rem;
+}   
+.skillsContent p{
+    font-size: .9rem;
+}
+.skillsContent a{
+    color: royalblue;
+}
+.imageSkill{
+    width: 100%;
+    max-width: 500px;
+    height: 290px;
+}
+.imageSkill img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+@media screen and (max-width:650px) {
+    .skillsContent{
+        flex-wrap: wrap;
+    }
+}
